@@ -1,0 +1,47 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/shopping/shopping",
+        "pages/login/login",
+        "pages/detail/detail",
+        "pages/cart/cart",
+        "pages/classtype/classtype"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#576b95",
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "商城小程序",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "主页",
+                "iconPath": "/images/home.png",
+                "selectedIconPath": "/images/home.png"
+            },
+            {
+                "pagePath": "pages/classtype/classtype",
+                "text": "分类",
+                "iconPath": "/images/home.png",
+                "selectedIconPath": "/images/home.png"
+            },
+            {
+                "pagePath": "pages/cart/cart",
+                "text": "购物车",
+                "iconPath": "/images/home.png",
+                "selectedIconPath": "/images/home.png"
+            },
+            {
+                "pagePath": "pages/login/login",
+                "text": "我的",
+                "iconPath": "/images/home.png",
+                "selectedIconPath": "/images/home.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}
